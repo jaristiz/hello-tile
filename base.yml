@@ -15,13 +15,9 @@ rank: 90
 serial: false
 
 releases:
-  - $( release "hello-release" )
   - $( release "bpm" )
 
 stemcell_criteria: $( stemcell )
-
-job_types:
-  - $( instance_group "hello-server" )
 
 runtime_configs: []
 
